@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mau2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0EDA0E"
+        android:gravity="center"
+        android:text="APP Quản Lý Sách"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp" />
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#FB0000"
+        android:id="@+id/btnInsertAuthor"
+        android:layout_width="300dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_height="100dp"
+        android:text="Thêm Tác Giả" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/buttonShowAuthorList"
+            android:layout_width="200dp"
+            android:textSize="20sp"
+            android:backgroundTint="#0054FF"
+            android:layout_height="200dp"
+            android:layout_marginRight="5dp"
+            android:text="Xem danh sách Tác Giả" />
+        <Button
+            android:layout_gravity="right"
+            android:id="@+id/buttonInsertBook"
+            android:layout_width="200dp"
+            android:backgroundTint="#0054FF"
+            android:textSize="20sp"
+            android:layout_height="200dp"
+            android:text="Quản lý Sách" />
+    </LinearLayout>
+
+
+</LinearLayout>
